@@ -10,8 +10,7 @@ namespace SamuraiApp.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(
-                "Data Source= (localdb)\\MSSQLLocalDB; Initial Catalog=SamuraiAppData");
+            optionsBuilder.UseSqlite("Data Source=SamuraiAppData.db");
             
         }
     }
