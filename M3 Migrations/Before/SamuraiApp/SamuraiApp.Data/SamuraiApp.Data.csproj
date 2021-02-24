@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.*" />
+    <!-- Use 5.* for flexible version # -->
   </ItemGroup>
 
   <ItemGroup>

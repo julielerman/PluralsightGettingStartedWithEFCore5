@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference  />
-	<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.*" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.*" />
   </ItemGroup>
 
   <ItemGroup>

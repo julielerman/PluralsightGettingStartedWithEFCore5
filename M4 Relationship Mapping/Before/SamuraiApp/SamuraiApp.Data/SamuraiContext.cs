@@ -11,7 +11,8 @@ namespace SamuraiApp.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=SamuraiAppData.db");
+            //sqlite db will go in root folder for the specific before or after version of each module
+            optionsBuilder.UseSqlite("Data Source=..\\SamuraiAppData.db");
             
         }
     }
