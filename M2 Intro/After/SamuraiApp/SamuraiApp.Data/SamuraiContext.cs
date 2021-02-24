@@ -11,7 +11,7 @@ namespace SamuraiApp.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite(
-                "Data Source= SamuraiAppDataFirstLook.db");
+                "Data Source=..\\ SamuraiAppDataFirstLook.db");
             
         }
     }

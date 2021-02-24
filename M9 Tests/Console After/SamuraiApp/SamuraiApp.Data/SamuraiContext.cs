@@ -23,7 +23,7 @@ namespace SamuraiApp.Data
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseSqlServer(
-                    "Data Source= (localdb)\\MSSQLLocalDB; Initial Catalog=SamuraiTestData");
+                    "Data Source= ..\\SamuraiTestData.db");
             }
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
