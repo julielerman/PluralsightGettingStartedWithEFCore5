@@ -11,12 +11,12 @@ namespace SamuraiApp.UI
 
         private static void Main(string[] args)
         {
-            _context.Database.EnsureCreated();
+           //using migrations instead of: _context.Database.EnsureCreated();
             GetSamurais("Before Add:");
             AddSamurai();
             GetSamurais("After Add:");
             Console.Write("Press any key...");
-            Console.ReadKey();
+            //Console.ReadKey();
         }
 
         private static void AddSamurai()
